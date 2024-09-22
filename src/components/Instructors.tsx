@@ -18,7 +18,7 @@ export default function Instructors() {
         </p>
       </div>
 
-      <div className="mt-10 flex flex-wrap justify-center gap-6 border md:flex-nowrap">
+      <div className="mt-10 flex flex-wrap justify-center gap-6 md:flex-nowrap">
         <div className="flex w-full flex-col items-center justify-center rounded-xl border-r border-t p-6 text-center shadow-md lg:w-1/4">
           <img src={jackson} alt="Jackson" />
           <h3 className="-mb-1 mt-3">Jackson Leo</h3>
