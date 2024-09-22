@@ -24,7 +24,7 @@ export default function Nav() {
 
   return (
     <header
-      className={` h-full min-h-[60px] w-[100vh] overflow-hidden border-b border-gray-200 py-10`}
+      className={` h-full min-h-[60px] max-w-[100vh] border-b border-gray-200 py-10 overflow-hidden`}
     >
       <div className={`${navBg ? "bg-white" : "bg-none"} fixed left-0 right-0 top-0 z-20 w-full py-5` }>
         <nav className="mx-10 flex items-center justify-between text-center">
